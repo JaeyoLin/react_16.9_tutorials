@@ -15,6 +15,8 @@ const UseEffect = lazy(() => import('./components/UseEffect'));
 const UseMemo = lazy(() => import('./components/UseMomo'));
 const AaronTest = lazy(() => import('./components/AaronTest'));
 const UseContext = lazy(() => import('./components/UseContext'));
+const UseReducer = lazy(() => import('./components/UseReducer'));
+const GlobalStateManager = lazy(() => import('./components/GlobalStateManager/GlobalStateManager'));
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
       <Route path="/useMemo" component={WaitingComponent(UseMemo)} />
       <Route path="/11" component={WaitingComponent(AaronTest)} />
       <Route path="/useContext" component={WaitingComponent(UseContext)} />
+      <Route path="/useReducer" component={WaitingComponent(UseReducer)} />
+      <Route path="/globalStateManager" component={WaitingComponent(GlobalStateManager)} />
     </Fragment>
   );
 }

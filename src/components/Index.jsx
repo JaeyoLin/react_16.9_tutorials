@@ -10,6 +10,8 @@ const Index = () => {
         <li><Link to="/useEffect">useEffect</Link></li>
         <li><Link to="/useMemo">useMemo</Link></li>
         <li><Link to="/useContext">useContext</Link></li>
+        <li><Link to="/useReducer">useReducer</Link></li>
+        <li><Link to="/globalStateManager">globalStateManager</Link></li>
       </ul>
     </div>
   )
