@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import ContextStore from '../store';
 
 const Orders = () => {
-  const { orders, oDispatch } =  useContext(ContextStore);
+  const { orders, oDispatch } = useContext(ContextStore);
   return (
     <div>
       <button onClick={() => oDispatch({type: 'ADD_ORDER'})}>ADD ORDER</button>

@@ -21,7 +21,7 @@ const Button = React.memo(({ handleClick, text }) => {
   );
 });
 
-const AaronTest = () => {
+const UseCallback = () => {
   const [numA, setNumA] = useState(0);
   const handlePlusAClick = useCallback(
     () => setNumA(prevNumA => prevNumA + 1),
@@ -59,4 +59,4 @@ const AaronTest = () => {
   );
 }
 
-export default AaronTest;
+export default UseCallback;

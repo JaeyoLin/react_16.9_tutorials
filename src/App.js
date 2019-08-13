@@ -13,7 +13,7 @@ const Index = lazy(() => import('./components/Index'));
 const UseState = lazy(() => import('./components/UseState'));
 const UseEffect = lazy(() => import('./components/UseEffect'));
 const UseMemo = lazy(() => import('./components/UseMomo'));
-const AaronTest = lazy(() => import('./components/AaronTest'));
+const UseCallback = lazy(() => import('./components/UseCallback'));
 const UseContext = lazy(() => import('./components/UseContext'));
 const UseReducer = lazy(() => import('./components/UseReducer'));
 const GlobalStateManager = lazy(() => import('./components/GlobalStateManager/GlobalStateManager'));
@@ -25,7 +25,7 @@ const App = () => {
       <Route path="/useState" component={WaitingComponent(UseState)} />
       <Route path="/useEffect" component={WaitingComponent(UseEffect)} />
       <Route path="/useMemo" component={WaitingComponent(UseMemo)} />
-      <Route path="/11" component={WaitingComponent(AaronTest)} />
+      <Route path="/useCallback" component={WaitingComponent(UseCallback)} />
       <Route path="/useContext" component={WaitingComponent(UseContext)} />
       <Route path="/useReducer" component={WaitingComponent(UseReducer)} />
       <Route path="/globalStateManager" component={WaitingComponent(GlobalStateManager)} />
