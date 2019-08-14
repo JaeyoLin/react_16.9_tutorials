@@ -1,8 +1,8 @@
 {
-  "name": "react_hook",
+  "name": "react_16.9_tutorials",
+  "homepage": "https://jaeyolin.github.io/react_16.9_tutorials/index.html",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
