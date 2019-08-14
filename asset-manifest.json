@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_16.9_tutorials/static/css/main.8ef63b32.chunk.css",
-    "main.js": "/react_16.9_tutorials/static/js/main.b53e4886.chunk.js",
-    "main.js.map": "/react_16.9_tutorials/static/js/main.b53e4886.chunk.js.map",
+    "main.js": "/react_16.9_tutorials/static/js/main.bfd9651b.chunk.js",
+    "main.js.map": "/react_16.9_tutorials/static/js/main.bfd9651b.chunk.js.map",
     "runtime~main.js": "/react_16.9_tutorials/static/js/runtime~main.2be5d4c5.js",
     "runtime~main.js.map": "/react_16.9_tutorials/static/js/runtime~main.2be5d4c5.js.map",
     "static/js/2.4ded2d87.chunk.js": "/react_16.9_tutorials/static/js/2.4ded2d87.chunk.js",
@@ -33,7 +33,7 @@
     "static/js/14.e77f8eca.chunk.js": "/react_16.9_tutorials/static/js/14.e77f8eca.chunk.js",
     "static/js/14.e77f8eca.chunk.js.map": "/react_16.9_tutorials/static/js/14.e77f8eca.chunk.js.map",
     "index.html": "/react_16.9_tutorials/index.html",
-    "precache-manifest.25f673cf559dc5c56b2d92bcf05974ce.js": "/react_16.9_tutorials/precache-manifest.25f673cf559dc5c56b2d92bcf05974ce.js",
+    "precache-manifest.3308a4009cebd9c40dbd5542cd3c9525.js": "/react_16.9_tutorials/precache-manifest.3308a4009cebd9c40dbd5542cd3c9525.js",
     "service-worker.js": "/react_16.9_tutorials/service-worker.js",
     "static/css/3.525f6c7e.chunk.css.map": "/react_16.9_tutorials/static/css/3.525f6c7e.chunk.css.map",
     "static/css/main.8ef63b32.chunk.css.map": "/react_16.9_tutorials/static/css/main.8ef63b32.chunk.css.map"
