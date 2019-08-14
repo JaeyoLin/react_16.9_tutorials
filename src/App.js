@@ -1,4 +1,4 @@
-import React, { Fragment, lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
@@ -24,8 +24,8 @@ const GlobalStateManager = lazy(() => import('./components/GlobalStateManager/Gl
 
 const App = () => {
   return (
-    <Fragment>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={WaitingComponent(Index)} />
           <Route path="/useState" component={WaitingComponent(UseState)} />
@@ -41,7 +41,7 @@ const App = () => {
           <Route path="/globalStateManager" component={WaitingComponent(GlobalStateManager)} />
         </Switch>
       </BrowserRouter>
-    </Fragment>
+    </>
   );
 }
 
