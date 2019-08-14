@@ -1,5 +1,5 @@
 import React, { Fragment, lazy, Suspense } from 'react';
-import { Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -25,18 +25,22 @@ const GlobalStateManager = lazy(() => import('./components/GlobalStateManager/Gl
 const App = () => {
   return (
     <Fragment>
-      <Route path="/" exact component={WaitingComponent(Index)} />
-      <Route path="/useState" component={WaitingComponent(UseState)} />
-      <Route path="/useEffect" component={WaitingComponent(UseEffect)} />
-      <Route path="/useLayoutEffect" component={WaitingComponent(UseLayoutEffect)} />
-      <Route path="/useLayoutEffect2" component={WaitingComponent(UseLayoutEffect2)} />
-      <Route path="/useMemo" component={WaitingComponent(UseMemo)} />
-      <Route path="/useCallback" component={WaitingComponent(UseCallback)} />
-      <Route path="/useRef" component={WaitingComponent(UseRef)} />
-      <Route path="/useImperativeHandle" component={WaitingComponent(UseImperativeHandle)} />
-      <Route path="/useContext" component={WaitingComponent(UseContext)} />
-      <Route path="/useReducer" component={WaitingComponent(UseReducer)} />
-      <Route path="/globalStateManager" component={WaitingComponent(GlobalStateManager)} />
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route path="/" exact component={WaitingComponent(Index)} />
+          <Route path="/useState" component={WaitingComponent(UseState)} />
+          <Route path="/useEffect" component={WaitingComponent(UseEffect)} />
+          <Route path="/useLayoutEffect" component={WaitingComponent(UseLayoutEffect)} />
+          <Route path="/useLayoutEffect2" component={WaitingComponent(UseLayoutEffect2)} />
+          <Route path="/useMemo" component={WaitingComponent(UseMemo)} />
+          <Route path="/useCallback" component={WaitingComponent(UseCallback)} />
+          <Route path="/useRef" component={WaitingComponent(UseRef)} />
+          <Route path="/useImperativeHandle" component={WaitingComponent(UseImperativeHandle)} />
+          <Route path="/useContext" component={WaitingComponent(UseContext)} />
+          <Route path="/useReducer" component={WaitingComponent(UseReducer)} />
+          <Route path="/globalStateManager" component={WaitingComponent(GlobalStateManager)} />
+        </Switch>
+      </BrowserRouter>
     </Fragment>
   );
 }
