@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e363dbb8fe23787a7dfef765e1f8a0",
+    "revision": "247ef217318c070994d54171a59a6178",
     "url": "/react_16.9_tutorials/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_16.9_tutorials/static/css/3.525f6c7e.chunk.css"
   },
   {
-    "revision": "76f811e7d76cab5b1bf7",
+    "revision": "e860591f01e536af3f68",
     "url": "/react_16.9_tutorials/static/css/main.8ef63b32.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_16.9_tutorials/static/js/11.9ff14d17.chunk.js"
   },
   {
-    "revision": "619eebc0660a3be2b851",
-    "url": "/react_16.9_tutorials/static/js/12.7fc4651d.chunk.js"
+    "revision": "6070f79875509492f2af",
+    "url": "/react_16.9_tutorials/static/js/12.9d794866.chunk.js"
   },
   {
     "revision": "63f477f57dbd7c72093a",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_16.9_tutorials/static/js/14.e77f8eca.chunk.js"
   },
   {
-    "revision": "10fe866c6a84077e74f9",
-    "url": "/react_16.9_tutorials/static/js/2.63d635e3.chunk.js"
+    "revision": "82d4bd7978533ac35933",
+    "url": "/react_16.9_tutorials/static/js/2.4ded2d87.chunk.js"
   },
   {
     "revision": "db45fc3f67eec9c9c7fb",
@@ -64,11 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_16.9_tutorials/static/js/9.84eef12b.chunk.js"
   },
   {
-    "revision": "76f811e7d76cab5b1bf7",
-    "url": "/react_16.9_tutorials/static/js/main.5bc2d96f.chunk.js"
+    "revision": "e860591f01e536af3f68",
+    "url": "/react_16.9_tutorials/static/js/main.b53e4886.chunk.js"
   },
   {
-    "revision": "451454905af23e763881",
-    "url": "/react_16.9_tutorials/static/js/runtime~main.51ea8289.js"
+    "revision": "b4f0b2d125e4320c5f33",
+    "url": "/react_16.9_tutorials/static/js/runtime~main.2be5d4c5.js"
   }
 ]);
